@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LINE自動通知紹介</title>
+    <title>名刺</title>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
@@ -13,24 +13,14 @@
   <body class="bg-gray-800">
     <div class="min-h-screen flex items-center justify-center">
       <div
-        class="max-w-screen-sm mt-32 mb-32 bg-white shadow-md p-4 rounded-lg"
+        class="max-w-screen-sm mt-32 mb-32 bg-white shadow-md p-4 rounded-lg transform scale-100 hover:scale-125 transition-transform duration-300 cursor-pointer"
       >
-        <img
-          src="./images/LINE.png"
+        <img 
+          src="./src/image_0/スクリーンショット 2023-10-16 105438.png"
           alt="image"
           class="w-full h-auto rounded-md"
         />
-        <div class="text-center py-4">
-          <p class="text-2xl font-bold mt-4 mb-5">
-            LINE自動通知（AWS・Python）
-          </p>
-          <p class="text-gray-500 font-bold">
-            毎朝６時をトリガーとして自動通知を実施。
-          </p>
-          <p class="text-gray-500 font-bold">
-            LINENotifyとWeatherAPI,電車の遅延情報をスクレイピングで情報を取得。
-          </p>
-        </div>
+    
       </div>
     </div>
   </body>
